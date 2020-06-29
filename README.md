@@ -1,16 +1,40 @@
-<p align="center">
-<a href="https://travis-ci.org/openmage/magento-lts"><img src="https://travis-ci.org/openmage/magento-lts.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/openmage/magento-lts"><img src="https://poser.pugx.org/openmage/magento-lts/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/openmage/magento-lts"><img src="https://poser.pugx.org/openmage/magento-lts/license.svg" alt="License"></a>
-</p>
+# OpenMage LTS
 
-# Magento - Long Term Support
+## Status
+---------------------
+| Travis-CI  | Downloads | License |
+| ------------- | ------------- | ------------- |
+| <a href="https://travis-ci.org/openmage/magento-lts"><img src="https://travis-ci.org/openmage/magento-lts.svg" alt="OpenMage Build Status"></a> |<a href="https://packagist.org/packages/openmage/magento-lts"><img src="https://poser.pugx.org/openmage/magento-lts/d/total.svg" alt="OpenMage Total Downloads"></a> |<a href="https://packagist.org/packages/openmage/magento-lts"><img src="https://poser.pugx.org/openmage/magento-lts/license.svg" alt="OpenMage License"></a>  |
 
-This repository is the home of an **unofficial** community-driven project. It's goal is to be a dependable alternative
+## Welcome to OpenMage LTS - A community-driven fork of Magento Community Edition
+
+Welcome to the **OpenMage LTS** development repository.
+
+### Why OpenMage LTS
+
+OpenMage LTS is designed to benefit Magento community by offering stable platform after EOL to continue at least 5 years ahead.
+
+* Continued Long-Term Support (LTS) from Magento 1
+* Security patches
+* Performance optimizations
+
+Please check out our website [OpenMage.org](https://www.openmage.org/) for information about how OpenMage LTS allows Magento 1.x EOL merchants to continue running a secure, stable Magento-based platform while remaining PCI compliant.
+
+* [Getting Started](#getting-started)
+* [Installation](#installation)
+* [Requirements](#requirements)
+* [Translations](#translations)
+* [Development](#development)
+* [Online Communities](#online-communities)
+* [Maintainers](#maintainers)
+* [License](#license)
+* [Copyright](#copyright)
+
+## Getting Started
+
+This repository is the home of **OpenMage LTS**, an **unofficial** community-driven project. It's goal is to be a dependable alternative
 to the Magento CE official releases which integrates improvements directly from the community while maintaining a high
 level of backwards compatibility to the official releases.
-
-**Pull requests with unofficial bug fixes and security patches from the community are encouraged and welcome!**
 
 Though Magento does not follow [Semantic Versioning](http://semver.org/) we aim to provide a workable system for
 dependency definition. Each Magento `1.<minor>.<revision>` release will get its own branch (named `1.<minor>.<revision>.x`)
@@ -27,12 +51,12 @@ Download the latest archive and extract it, clone the repo, or add a composer de
 "openmage/magento-lts": "1.9.4.x"
 ```
 
-[More Information](http://openmage.github.io/magento-lts/install.html)
+[More Information](https://www.openmage.org/magento-lts/install.html)
 
 ## Requirements
 
-- PHP 7.0+ (PHP 7.3 and OpenSSL extension strongly recommended)
-- MySQL 5.6+ (8.0+ Recommended)
+* PHP 7.0+ (PHP 7.3 and OpenSSL extension strongly recommended)
+* MySQL 5.6+ (8.0+ Recommended)
 
 ## Translations
 
@@ -40,7 +64,13 @@ There are some new or changed tranlations, if you want add them to your locale p
 
 - `app/locale/en_US/*_LTS.csv`
 
-## PhpStorm Factory Helper
+## Development
+
+It's likely that you've invested more time and money into your Magento-based eCommerce platform than you even want to think about. With your help, we'd like to make sure that investment continues to pay it's dividends.
+
+**Pull requests with unofficial bug fixes and security patches from the community are encouraged and welcome!**
+
+### PhpStorm Factory Helper
 
 This repo includes class maps for the core Magento files in `.phpstorm.meta.php`.
 This file is generated using the following commands:
@@ -54,13 +84,13 @@ You can add additional meta files in this directory to cover your own project fi
 [PhpStorm advanced metadata](https://www.jetbrains.com/help/phpstorm/ide-advanced-metadata.html)
 for more information.
 
-## License
+## Online Communities
 
-[OSL v3.0](http://opensource.org/licenses/OSL-3.0)
-
-## Public Communication and online Community places
-
+* [Website](https://www.openmage.org/)
 * [Discord](https://discord.gg/EV8aNbU) (maintained by Flyingmana)
+* [Twitter](https://twitter.com/OpenMageProject)
+* [Facebook](https://www.facebook.com/OpenMage-1374303459372150)
+* [Linkedin](https://www.linkedin.com/groups/13655485/)
 
 ## Maintainers
 
@@ -69,4 +99,13 @@ for more information.
 * [Daniel Fahlke aka Flyingmana](https://github.com/Flyingmana)
 * [Tymoteusz Motylewski](https://github.com/tmotyl)
 * [Sven Reichel](https://github.com/sreichel)
-* Pull requests are welcome
+* and over other 100 Contributors!
+
+## License
+
+[OSL v3.0](http://opensource.org/licenses/OSL-3.0)
+
+## Copyright
+Magento and all related logos are either registered trademarks or trademarks of Adobe Inc. in the United States and/or other Countries. Use of such trademarks is under license and does not imply any affiliation, endorsement, or sponsorship by Adobe Inc.
+
+* Copyright (C) 2020 OpenMage
