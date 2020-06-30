@@ -1,23 +1,13 @@
 # OpenMage LTS
-Welcome to the **OpenMage LTS** development repository, a community-driven fork of **Magento Community Edition**.
-
-
-## OpenMage LTS Project Status
 <a href="https://travis-ci.org/openmage/magento-lts"><img src="https://travis-ci.org/openmage/magento-lts.svg" alt="OpenMage Build Status"></a> 
 <a href="https://packagist.org/packages/openmage/magento-lts"><img src="https://poser.pugx.org/openmage/magento-lts/d/total.svg" alt="OpenMage Total Downloads"></a>
 <a href="https://packagist.org/packages/openmage/magento-lts"><img src="https://poser.pugx.org/openmage/magento-lts/license.svg" alt="OpenMage License"></a>
 
+Welcome to the **OpenMage LTS** development repository, a community-driven fork of **Magento Community Edition**.
 
-## Why OpenMage LTS
+OpenMage LTS is a **stable and secure e-commerce platform** that let continue your e-commerce journey.
 
-**OpenMage LTS** is designed to benefit Magento community by offering stable platform after <a href="https://www.openmage.org/community/2019/01/20/after-m1-eol.html" target="_blank">Magento 1.x EOL</a> to continue at least 5 years ahead.
-
-* Continued Long-Term Support (LTS) from Magento 1
-* Security patches
-* Performance optimizations
-
-Please check out our website <a href="https://www.openmage.org/" target="_blank">OpenMage.org</a> for information about how OpenMage LTS allows Magento 1.x EOL merchants to continue running a secure, stable Magento-based platform while remaining PCI compliant.
-
+* [Why OpenMage?](#why-openmage-lts)
 * [Getting Started](#getting-started)
 * [Installation](#installation)
 * [Requirements](#requirements)
@@ -27,6 +17,17 @@ Please check out our website <a href="https://www.openmage.org/" target="_blank"
 * [Maintainers](#maintainers)
 * [License](#license)
 * [Copyright](#copyright)
+
+
+## Why OpenMage LTS
+
+**OpenMage LTS** is designed to benefit **Magento** community by offering stable platform after <a href="https://www.openmage.org/community/2019/01/20/after-m1-eol.html" target="_blank">Magento 1.x EOL</a> to continue at least 5 years ahead.
+
+* Continued Long-Term Support (LTS) from Magento 1
+* Security patches
+* Performance optimizations
+
+Please check out our website <a href="https://www.openmage.org/" target="_blank">OpenMage.org</a> for information about how OpenMage LTS allows Magento 1.x EOL merchants to continue running a secure, stable Magento-based platform while remaining PCI compliant.
 
 
 ## Getting Started
