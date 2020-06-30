@@ -1,18 +1,14 @@
 # OpenMage LTS
+Welcome to the **OpenMage LTS** development repository, a community-driven fork of **Magento Community Edition**.
 
-## Status
----------------------
-| Travis-CI  | Downloads | License |
-| ------------- | ------------- | ------------- |
-| <a href="https://travis-ci.org/openmage/magento-lts"><img src="https://travis-ci.org/openmage/magento-lts.svg" alt="OpenMage Build Status"></a> |<a href="https://packagist.org/packages/openmage/magento-lts"><img src="https://poser.pugx.org/openmage/magento-lts/d/total.svg" alt="OpenMage Total Downloads"></a> |<a href="https://packagist.org/packages/openmage/magento-lts"><img src="https://poser.pugx.org/openmage/magento-lts/license.svg" alt="OpenMage License"></a>  |
+## OpenMage LTS Project Status
+<a href="https://travis-ci.org/openmage/magento-lts"><img src="https://travis-ci.org/openmage/magento-lts.svg" alt="OpenMage Build Status"></a> 
+<a href="https://packagist.org/packages/openmage/magento-lts"><img src="https://poser.pugx.org/openmage/magento-lts/d/total.svg" alt="OpenMage Total Downloads"></a>
+<a href="https://packagist.org/packages/openmage/magento-lts"><img src="https://poser.pugx.org/openmage/magento-lts/license.svg" alt="OpenMage License"></a>
 
-## Welcome to OpenMage LTS - A community-driven fork of Magento Community Edition
+## Why OpenMage LTS
 
-Welcome to the **OpenMage LTS** development repository.
-
-### Why OpenMage LTS
-
-OpenMage LTS is designed to benefit Magento community by offering stable platform after EOL to continue at least 5 years ahead.
+**OpenMage LTS** is designed to benefit Magento community by offering stable platform after [EOL](https://www.openmage.org/community/2019/01/20/after-m1-eol.html) to continue at least 5 years ahead.
 
 * Continued Long-Term Support (LTS) from Magento 1
 * Security patches
@@ -32,14 +28,9 @@ Please check out our website [OpenMage.org](https://www.openmage.org/) for infor
 
 ## Getting Started
 
-This repository is the home of **OpenMage LTS**, an **unofficial** community-driven project. It's goal is to be a dependable alternative
-to the Magento CE official releases which integrates improvements directly from the community while maintaining a high
-level of backwards compatibility to the official releases.
+This repository is the home of **OpenMage LTS**, an **unofficial** community-driven project. It's goal is to be a dependable alternative to the Magento CE official releases which integrates improvements directly from the community while maintaining a high level of backwards compatibility to the official releases.
 
-Though Magento does not follow [Semantic Versioning](http://semver.org/) we aim to provide a workable system for
-dependency definition. Each Magento `1.<minor>.<revision>` release will get its own branch (named `1.<minor>.<revision>.x`)
-that will be independently maintained with upstream patches and community bug fixes for as long as it makes sense
-to do so (based on available resources). For example, Magento version `1.9.3.4` was merged into the `1.9.3.x` branch.
+Though Magento does not follow [Semantic Versioning](http://semver.org/) we aim to provide a workable system for dependency definition. Each Magento `1.<minor>.<revision>` release will get its own branch (named `1.<minor>.<revision>.x`) that will be independently maintained with upstream patches and community bug fixes for as long as it makes sense to do so (based on available resources). For example, Magento version `1.9.3.4` was merged into the `1.9.3.x` branch.
 
 Note, the branches older than `1.9.3.x` that were created before this strategy came into practice are **not maintained**.
 
@@ -103,9 +94,9 @@ for more information.
 
 ## License
 
-[OSL v3.0](http://opensource.org/licenses/OSL-3.0)
+[Open Software License 3.0 (OSL-3.0)](http://opensource.org/licenses/OSL-3.0)
 
 ## Copyright
-Magento and all related logos are either registered trademarks or trademarks of Adobe Inc. in the United States and/or other Countries. Use of such trademarks is under license and does not imply any affiliation, endorsement, or sponsorship by Adobe Inc.
+**Magento** and all related logos are either registered trademarks or trademarks of Adobe Inc. in the United States and/or other Countries. Use of such trademarks is under license and does not imply any affiliation, endorsement, or sponsorship by Adobe Inc.
 
 * Copyright (C) 2020 OpenMage
