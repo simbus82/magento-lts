@@ -1,20 +1,22 @@
 # OpenMage LTS
 Welcome to the **OpenMage LTS** development repository, a community-driven fork of **Magento Community Edition**.
 
+
 ## OpenMage LTS Project Status
 <a href="https://travis-ci.org/openmage/magento-lts"><img src="https://travis-ci.org/openmage/magento-lts.svg" alt="OpenMage Build Status"></a> 
 <a href="https://packagist.org/packages/openmage/magento-lts"><img src="https://poser.pugx.org/openmage/magento-lts/d/total.svg" alt="OpenMage Total Downloads"></a>
 <a href="https://packagist.org/packages/openmage/magento-lts"><img src="https://poser.pugx.org/openmage/magento-lts/license.svg" alt="OpenMage License"></a>
 
+
 ## Why OpenMage LTS
 
-**OpenMage LTS** is designed to benefit Magento community by offering stable platform after [EOL](https://www.openmage.org/community/2019/01/20/after-m1-eol.html) to continue at least 5 years ahead.
+**OpenMage LTS** is designed to benefit Magento community by offering stable platform after <a href="https://www.openmage.org/community/2019/01/20/after-m1-eol.html" target="_blank">Magento 1.x EOL</a> to continue at least 5 years ahead.
 
 * Continued Long-Term Support (LTS) from Magento 1
 * Security patches
 * Performance optimizations
 
-Please check out our website [OpenMage.org](https://www.openmage.org/) for information about how OpenMage LTS allows Magento 1.x EOL merchants to continue running a secure, stable Magento-based platform while remaining PCI compliant.
+Please check out our website <a href="https://www.openmage.org/" target="_blank">OpenMage.org</a> for information about how OpenMage LTS allows Magento 1.x EOL merchants to continue running a secure, stable Magento-based platform while remaining PCI compliant.
 
 * [Getting Started](#getting-started)
 * [Installation](#installation)
@@ -26,13 +28,17 @@ Please check out our website [OpenMage.org](https://www.openmage.org/) for infor
 * [License](#license)
 * [Copyright](#copyright)
 
+
 ## Getting Started
 
 This repository is the home of **OpenMage LTS**, an **unofficial** community-driven project. It's goal is to be a dependable alternative to the Magento CE official releases which integrates improvements directly from the community while maintaining a high level of backwards compatibility to the official releases.
 
 Though Magento does not follow [Semantic Versioning](http://semver.org/) we aim to provide a workable system for dependency definition. Each Magento `1.<minor>.<revision>` release will get its own branch (named `1.<minor>.<revision>.x`) that will be independently maintained with upstream patches and community bug fixes for as long as it makes sense to do so (based on available resources). For example, Magento version `1.9.3.4` was merged into the `1.9.3.x` branch.
 
-Note, the branches older than `1.9.3.x` that were created before this strategy came into practice are **not maintained**.
+
+### Note
+The branches older than `1.9.3.x` that were created before this strategy came into practice are **not maintained**.
+
 
 ## Installation
 
@@ -42,18 +48,21 @@ Download the latest archive and extract it, clone the repo, or add a composer de
 "openmage/magento-lts": "1.9.4.x"
 ```
 
-[More Information](https://www.openmage.org/magento-lts/install.html)
+See [more installation informations](https://www.openmage.org/magento-lts/install.html) about OpenMage LTS.
+
 
 ## Requirements
 
 * PHP 7.0+ (PHP 7.3 and OpenSSL extension strongly recommended)
 * MySQL 5.6+ (8.0+ Recommended)
 
+
 ## Translations
 
 There are some new or changed tranlations, if you want add them to your locale pack please check:
 
 - `app/locale/en_US/*_LTS.csv`
+
 
 ## Development
 
@@ -75,6 +84,7 @@ You can add additional meta files in this directory to cover your own project fi
 [PhpStorm advanced metadata](https://www.jetbrains.com/help/phpstorm/ide-advanced-metadata.html)
 for more information.
 
+
 ## Online Communities
 
 * [Website](https://www.openmage.org/)
@@ -82,6 +92,7 @@ for more information.
 * [Twitter](https://twitter.com/OpenMageProject)
 * [Facebook](https://www.facebook.com/OpenMage-1374303459372150)
 * [Linkedin](https://www.linkedin.com/groups/13655485/)
+
 
 ## Maintainers
 
@@ -92,9 +103,11 @@ for more information.
 * [Sven Reichel](https://github.com/sreichel)
 * and over other 100 Contributors!
 
+
 ## License
 
 [Open Software License 3.0 (OSL-3.0)](http://opensource.org/licenses/OSL-3.0)
+
 
 ## Copyright
 **Magento** and all related logos are either registered trademarks or trademarks of Adobe Inc. in the United States and/or other Countries. Use of such trademarks is under license and does not imply any affiliation, endorsement, or sponsorship by Adobe Inc.
